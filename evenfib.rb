@@ -3,16 +3,9 @@
 def fibonacci(first_term, second_term, upper_lim, sum)
   thrid_term = first_term + second_term
 
-  puts "first: #{first_term} second #{second_term}"
-
   if first_term.even?
     sum += first_term
-    puts sum
-  # elsif second_term.even?
-  #     sum += second_term
-  #      puts sum
   end
-
   if sum > 4000000
     return sum
   end
